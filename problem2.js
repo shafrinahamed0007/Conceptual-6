@@ -30,12 +30,12 @@ function analyzeMarks(markObj) {
     total += mark;
 
     if (mark > highestMark) {
-      highestMark = mark;
+      // highestMark = mark;
       highestSubject = subject;
     }
 
     if (mark < lowestMark) {
-      lowestMark = mark;
+      // lowestMark = mark;
       lowestSubject = subject;
     }
   }
